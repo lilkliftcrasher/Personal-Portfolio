@@ -1,0 +1,29 @@
+body{
+    
+    font-size: 1.4rem;
+    background-color: white;
+    color: black;
+    line-height: 1.5;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+   max-width: 100%;
+}
+#sub-main1 img{
+    width: 100vw;
+}
+
+#sub-main2{
+    max-width: 50%;
+    margin: 0 auto;
+}
+#context{
+    text-align: center; 
+    max-width: 87%; 
+    margin: 0 auto;
+}
+hr{
+    border: 1.5px solid rgb(4, 230, 4) ;
+}

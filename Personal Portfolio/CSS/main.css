@@ -20,11 +20,11 @@ img{
     justify-content: space-between;
     padding: 2rem 1rem;
 }
-#header a{
+#header #logo{
     text-decoration: none;
     color: black;
 }
-#header nav a{
+#header #navigation a{
     text-decoration: none;
     margin-right: 3rem;
     color: black;
@@ -36,7 +36,7 @@ img{
     color: white;
     margin-bottom: 4rem;
 }
-#hero a{
+#hero #link{
     text-decoration: none;
     color: white;
     border: 1px solid white;
@@ -47,7 +47,7 @@ img{
     max-width: 80%;
     margin: 0 auto; 
 }
-.title-2{
+#title-cards{
     text-align: center;
 }
 #f-div{
@@ -69,19 +69,19 @@ img{
     height: 20rem;
    
 }
-.color-1{
+#color-1{
     background-color: rgb(19, 7, 7);
 }
-.color-2{
+#color-2{
     background-color: rgb(17, 39, 17);
 }
-.color-3{
+#color-3{
     background-color: rgb(255, 196, 0);
 }
-.color-4{
+#color-4{
     background-color: rgb(5, 91, 172);
 }
-.color-5{
+#color-5{
     background-color: rgb(171, 187, 187);
 }
 
