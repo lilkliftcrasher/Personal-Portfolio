@@ -1,0 +1,74 @@
+body{
+    line-height: 1.5;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+#page{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(31, 50, 51);
+    color: white;
+    padding: 3rem 0rem;
+}
+#page .center{
+    text-align: center;
+}
+#form{
+    border: 1px solid ;
+    max-width: 80%;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    line-height: 2;
+}
+.control-form input{
+        width: 95%;
+        height: 30px;
+        border: 1px outset;
+}
+.control-form select{
+    width: 95%;
+    height: 30px;
+    border: 1px outset;
+}
+fieldset{
+    border: 1px outset;
+}
+.control-form label{
+    font-weight: bold;
+}
+.control-form p{
+    font-weight: bold;
+}
+.legend{
+    font-weight: bold;
+}
+.control-form textarea{
+    width: 95%;
+    height: 30px;
+    border: 1px outset;
+}
+#buttons .submit{
+    padding: .5rem;
+    background-color: rgb(31, 50, 51);
+    color: white;
+
+}
+#buttons .reset{
+    padding: .5rem;
+    border: 2px inset;
+    background-color: white;
+}
+.space{
+    margin-top: 3rem;
+}

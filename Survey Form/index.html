@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+</head>
+<body>
+    <div id="page">
+        <h1 class="center">Survey Form</h1>
+        <p class="center">Let us know how we can improve Dust</p>
+        <form action="" id="form">
+            <p><strong>Required fields are followed by<abbr title="">*</abbr></strong></p>
+            <section id="personal-info">
+                <h2>Personal Informaion</h2>
+                <div class="space">
+                    <div  class="control-form">
+                        <label for="name">Name:<strong><abbr title="">*</abbr></strong></label>
+                    </div>
+                    <div class="control-form">
+                        <input type="text" id="name" placeholder="Enter Your Name Here">
+                    </div>
+                </div>
+                <div class="space">
+                   <div  class="control-form">
+                        <label for="email">Email:<strong><abbr title="">*</abbr></strong></label>
+                   </div>
+                    <div class="control-form">
+                        <input type="email" id="email" placeholder="Enter Your Email Here">
+                    </div>
+                </div>
+                <div class="space">
+                    <div  class="control-form">
+                        <label for="number">Number:<strong><abbr title="">*</abbr></strong></label>
+                    </div>
+                    <div class="control-form">
+                        <input type="text" id="number" placeholder="Enter Your Number Here">
+                    </div>
+                </div>
+                <div class="space">
+                    <div  class="control-form">
+                        <label for="age">Age<strong><abbr title="">*</abbr></strong></label>
+                    </div>
+                    <div class="control-form">
+                        <input type="number" id="age">
+                    </div>
+                </div>
+                <div class="space">
+                    <div class="control-form">
+                        <label for="f-select">which option best describe your current role?</label>
+                    </div>
+                    <div class="control-form">
+                        <select name="" id="f-select">
+                            <option value="--Select an option--">--Select an option--</option>
+                            <option value="Student">Student</option>
+                            <option value="Full-Time Eployee">Full-Time Eployee</option>
+                            <option value="Part-Time Stuudent and Employee">Part-Time Stuudent and Employee</option>
+                        </select>
+                    </div>
+                </div>
+
+            </section>
+                
+            <section id="feedback-info">
+                <h2 class="space">Feedback Information</h2>
+                <fieldset class="space">
+                    <legend>How like is that you would recommend Dust to a friend</legend>
+                    <div>
+                        <input type="radio" id="first">
+                        <label for="first">Definately</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="second">
+                        <label for="second">Maybe</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="third">
+                        <label for="third">Not sure</label>
+                    </div>
+                </fieldset>
+                <div class="space">
+                    <div class="control-form">
+                        <label for="s-select">What do you like most in Dust:</label>
+                    </div>
+                    <div class="control-form">
+                        <select name="" id="s-select">
+                            <option value="--select an option--">--Select an option--</option>
+                            <option value="Pair Programming">Pair Programming</option>
+                            <option value="Projects">Projects</option>
+                            <option value="Soft Skills">Soft Skills</option>
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <fieldset class="space">
+                        <legend class="legend">Choose all the way you think we can improved Dust</legend>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Front-end Projects</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">back-end Projects</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Soft Skill</label>
+                    </div>
+                    <div>
+                        <input type="checkbox">
+                        <label for="">Projects</label>
+                    </div>
+                </fieldset>
+                <div class="space">
+                    <div  class="control-form">
+                        <p>Any comments or suggestion?</p>
+                    </div>
+                    <div class="control-form">
+                        <textarea name="" id="" cols="30" rows="1" placeholder="Enter Your Comments and Suggestion Here"></textarea>
+                    </div>
+                </div>
+                <div id="buttons" class="space">
+                    <input class="submit" type="submit" value="Submit">
+                <input class="reset" type="reset" value="Reset">
+                </div>
+                
+            </section>
+
+
+        </form>
+    </div>
+</body>
+</html>
